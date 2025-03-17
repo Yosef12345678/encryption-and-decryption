@@ -1,0 +1,6 @@
+<form method="post">
+  {% csrf_token %}
+  <input type="text" name="email_otp" placeholder="Email OTP" required>
+  <input type="text" name="mobile_otp" placeholder="Mobile OTP" required>
+  <button type="submit">Verify OTP</button>
+</form>
